@@ -10,11 +10,11 @@ def myClosureWithParameters = {
 }
 myClosureWithParameters("First parameter", "Second Parameter")
 
-def myClosureWithParametersAndRetunrsAValue = {
+def myClosureWithParametersAndReturnsAValue = {
     param1 ->
         println "Sent parameter: $param1"
         return "$param1"
 }
-def returned = myClosureWithParametersAndRetunrsAValue("First parameter")
+def returned = myClosureWithParametersAndReturnsAValue("First parameter")
 println "returned value $returned"
 println "returned value type ${returned.getClass()}"

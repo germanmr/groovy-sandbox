@@ -3,7 +3,7 @@ import groovy.transform.EqualsAndHashCode
 
 @Canonical
 @EqualsAndHashCode
-class Person {
+class Person implements Serializable {
     String name
     Integer age
 }
